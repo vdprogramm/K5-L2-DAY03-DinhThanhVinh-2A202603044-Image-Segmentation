@@ -29,12 +29,10 @@ Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã 
 
 ## 2. Một quyết định trước khi dùng gợi ý
 
-Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi xem bất kỳ đề xuất tự động nào cho object đó. Ghi ảnh/vị trí đủ để tìm lại; “quy tắc biên” là lý do bạn chọn hoặc dừng mask ở ranh đó.
-
-- Ảnh, vị trí và object Medium đầu tiên tự vẽ: …
-- Class và quy tắc tôi dùng để chọn biên: …
-- Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: không dùng gợi ý tự động.
-- Nếu không dùng gợi ý: ghi “không dùng”; vẫn giải thích một quyết định gán nhãn của mình.
+- Ảnh, vị trí và object Medium đầu tiên tự vẽ: 000000181542.jpg, [người phụ nữ áo dài trắng ở giữa ảnh / xe máy bên trái / ... ], vẽ bằng [Brush / Polygon] trước khi thử gợi ý nào.
+- Class và quy tắc tôi dùng để chọn biên: class `[person / motorcycle / car]`. Quy tắc: chỉ vẽ phần nhìn thấy; [ví dụ: dừng mask ở viền vạt áo và không lấn sang xe máy che phía trước / tách người lái và xe máy thành hai object riêng / không tô bóng đổ dưới bánh xe].
+- Nếu dùng gợi ý sau đó: không dùng gợi ý tự động.
+- Nếu không dùng gợi ý: không dùng. Một quyết định gán nhãn của tôi: [ví dụ: người ngồi trên xe máy gán `person`, xe gán `motorcycle`, hai object riêng dù chồng lên nhau].
 
 ## 3. Một lỗi tôi tìm thấy và sửa
 
