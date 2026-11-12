@@ -44,8 +44,6 @@ Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến b�
 - Quy tắc và hành động sửa: road là stuff nên mọi vùng đường nhìn thấy phải có mask `road`. Tôi mở lại task trong CVAT, kiểm tra và sửa mask/label `road`, Save, export lại COCO 1.0.
 - Sau sửa đã Save và export lại chưa? Đã Save, export lại, xóa hard_panoptic.zip cũ và upload bản mới lên `submissions/`.
 
-Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Summary Actions báo cấu trúc [OK] cho easy_semantic, medium_instance, hard_panoptic; chưa có điểm. Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
-
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
 Mỗi ca là một **vùng cụ thể** khiến bạn phải cân nhắc hai cách hiểu. Ghi dấu hiệu nhìn thấy hoặc quy tắc đã dùng, rồi nêu quyết định hoặc câu hỏi cho coach. Không cần ba lỗi; ca đã quyết định được cũng hợp lệ.
